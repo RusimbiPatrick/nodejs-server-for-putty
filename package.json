@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-server-for-putty",
+  "version": "1.0.0",
+  "description": "TCP socket programing Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RusimbiPatrick/nodejs-server-for-putty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RusimbiPatrick/nodejs-server-for-putty/issues"
+  },
+  "homepage": "https://github.com/RusimbiPatrick/nodejs-server-for-putty#readme"
+}

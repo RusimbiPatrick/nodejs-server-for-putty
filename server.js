@@ -4,8 +4,8 @@ const host = '127.0.0.1';
 const port  = 3123;
 
 net.createServer((socket) => {
-    const timeStamp = Date.now()
-    const id = `${socket.remoteAddress} : ${socket.remotePort}`
+    const timeStamp = new Date()
+    const id = `${socket.remoteAddress}:${socket.remotePort}`
 
     console.log(`OK : ${timeStamp}`);
 
